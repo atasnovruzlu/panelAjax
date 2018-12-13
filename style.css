@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 30px;
+    color: white;
+}
+
+.orta {
+    text-align: center;
+}
+
+table {
+
+ text-align: center;
+ background: #808080;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+
+table th {
+    color: black;
+    font-size: 29px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 1px solid black;
+    border-collapse: collapse;
+
+}
+table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+
+}
+
+i {
+    color: black;
+    font-size: 22px;
+    padding: 12px;
+}
+
+i:hover {
+    color: white;
+    transition: .5s;
+}
+
+.id1 {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+}
+.modal-body{
+    color:black;
+}
+.modal-title {
+    color: black;
+}
