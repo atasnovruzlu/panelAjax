@@ -42,9 +42,9 @@ $.ajax({
         //edit information section
         $(".fa-edit").click(function () {
             var val_1 = $(this).closest("tr").children("td").eq(0);
-            var val_2 = $(this).closest("tr").children("td").eq(1);
-            var val_3 = $(this).closest("tr").children("td").eq(2);
-            var val_4 = $(this).closest("tr").children("td").eq(3);
+            var val_2 = $(this).closest("tr").children("td").eq(3);
+            var val_3 = $(this).closest("tr").children("td").eq(1);
+            var val_4 = $(this).closest("tr").children("td").eq(2);
             $(".edit-information").click(function () {
                 var val1 = $("#change_one").val();
                 $("#change_one").val('');
